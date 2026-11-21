@@ -47,4 +47,6 @@ clean-build.ps1
 clean-build.bat
 set-author.ps1
 set-author.bat
+set-token.ps1
+set-token.bat
 push-config.ini
