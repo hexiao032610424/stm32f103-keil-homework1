@@ -1,0 +1,48 @@
+# ===== Keil MDK / ARM 编译产物 =====
+# 这些是每次编译自动生成的，不需要进版本库
+Objects/
+Listings/
+DebugConfig/
+*.uvguix.*
+*.bak
+*.dep
+*.crf
+*.o
+*.d
+*.axf
+*.hex
+*.bin
+*.elf
+*.map
+*.lst
+*.lnp
+*.htm
+*.sct
+
+# ===== 调试器日志 =====
+JLinkLog.txt
+JLinkSettings.ini
+*.scvd
+EventRecorderStub.scvd
+
+# ===== Windows 系统垃圾 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*~
+
+# ===== 压缩包 =====
+*.zip
+*.7z
+*.rar
+
+# �������ͽű�������Ҫ���⣩
+push-to-github.ps1
+push-to-github.bat
+set-author.ps1
+set-author.bat
