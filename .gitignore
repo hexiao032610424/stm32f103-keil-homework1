@@ -1,5 +1,4 @@
 # ===== Keil MDK / ARM 编译产物 =====
-# 这些是每次编译自动生成的，不需要进版本库
 Objects/
 Listings/
 DebugConfig/
@@ -41,8 +40,11 @@ desktop.ini
 *.7z
 *.rar
 
-# �������ͽű�������Ҫ���⣩
+# === 本地工具脚本（自动添加，不要提交） ===
 push-to-github.ps1
 push-to-github.bat
+clean-build.ps1
+clean-build.bat
 set-author.ps1
 set-author.bat
+push-config.ini
